@@ -18,7 +18,7 @@
 */
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const newArr = arr1.filter((i) => arr1[i + 1] % 2 === 0);
+const newArr = arr1.filter((arr) => arr % 2 === 0);
 console.log(newArr);
 
 /* ESERCIZIO 4 (forEach)
